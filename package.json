@@ -2,7 +2,7 @@
   "author": "Cam Pedersen <diffference@gmail.com> (http://campedersen.com/)",
   "name": "npmtop.com",
   "description": "inspired by substack/npmtop",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "http://npmtop.com/",
   "repository": {
     "type": "git",
