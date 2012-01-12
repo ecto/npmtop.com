@@ -12,6 +12,10 @@
   "engines": {
     "node": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "broomstick": "*",
+    "director": "*",
+    "request": "*"
+  },
   "devDependencies": {}
 }
