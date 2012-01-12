@@ -11,7 +11,14 @@ $(document).ready(function () {
         alert('YOU\'VE GOT TO BE KIDDING ME. UPGRADE YOUR BROWSER');
       }
       authors = data.rows.sort(function (a, b) {
-        return b.value - a.value; // value descending
+        if (a.value != b.value) {
+          return b.value - a.value; // value descending
+        } else {
+          var a = a.key.toLowerCase();
+          var b = b.key.toLowerCase();
+          if (a < b) return -1;
+          if (a > b) return 1;
+        }
       });
       $('#content').text('');
       renderTop();
