@@ -3,7 +3,7 @@ var limit = 20;
 var skip = 0;
 
 $(document).ready(function () {
-  $.get('http://search.npmjs.org/_view/author?group=true',
+  $.get('/authors',
     function (data) {
       try {
         data = JSON.parse(data);
